@@ -9,6 +9,8 @@ from flask_socketio import SocketIO
 
 app = create_app('dev')
 
+
+
 app.app_context().push()
 
 manager = Manager(app)
