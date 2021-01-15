@@ -7,6 +7,8 @@ from app.main.models import user
 from app.main import create_app, db
 from flask_socketio import SocketIO
 
+
+
 app = create_app('dev')
 
 app.app_context().push()
